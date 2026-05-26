@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family:
+    Poppins,
+    Poppins Fallback;
+  font-style: normal;
+}
+#header{
+  display: flex;
+justify-content: space-around;
+
+  height: 8vh;
+  border: 0.5px solid #e5e7eb;
+  border-left: 0;
+  border-right: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-family:Poppins;
+}
+.header-content-1,.header-content-2{
+ 
+  display: flex;
+  gap: 50px;
+  align-items: center;
+
+}
+.search{
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  min-width: 250px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+
+}
+
+.logo{
+  white-space: nowrap;
+}
+
+input{
+  outline: none;
+  border: none;
+  background: none;
+
+}
+
+#hero{
+  display: flex;
+   font-family: Lato, Lato Fallback;
+  font-weight: 600;
+  line-height: 1.1;
+  gap: 5%;
+  align-items: center;
+  width:100% ;
+ margin-top: 3%;
+  justify-content:center;
+}
+
+.hero-content{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+
+}
+.heading{
+  color:  rgb(0, 26, 112);
+  font-size: 70px;
+
+  flex-wrap: wrap;
+   font-family: Lato, Lato Fallback;
+   font-weight: 600;
+
+}
+
+.sub-heading {
+  font-family: "Geist Sans", "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #60646b;
+}
+
+
+.tag{
+  display: flex;
+  align-items: center;
+  max-width:300px;
+  padding: 8px 12px;
+  white-space: nowrap;
+  height: 1%;
+  box-sizing: border-box;
+ border: 1px dashed #BDBDBD;
+ gap: 12px;
+ border-radius: 9999px;
+
+}
+
+.active{
+  width: 12px;
+  height: 12px;
+ border-radius: 9999px;
+  background-color: #10b0a7
+}
+.status-tag{
+  font-size: 14px;
+     font-family: Lato, Lato Fallback;
+  color: lab(28.7% 1.26 0.45);
+}
+
+img{
+ max-width: 85%;
+ min-height: 75%;
+}
+
+.button{
+ 
+  display: flex;
+
+  gap: 20px;
+  text-align: center;
+  
+}
+.button-2,.button-1{
+  border-radius: 10px;
+  min-width: 150px;
+  height: 20px;
+  padding: 30px;
+  border: 1px solid gray;
+  padding: 12px;
+}
+
+.button-2{
+  background-color: lab(11.0101 14.3499 -42.1491);
+  color: #e5e7eb;
+}
