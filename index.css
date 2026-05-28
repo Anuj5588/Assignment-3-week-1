@@ -5,9 +5,9 @@ body {
     Poppins Fallback;
   font-style: normal;
 }
-#header{
+#header {
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
 
   height: 8vh;
   border: 0.5px solid #e5e7eb;
@@ -16,67 +16,65 @@ justify-content: space-around;
   margin: 0;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
   font-weight: 800;
   font-size: 1.25rem;
-  font-family:Poppins;
+  font-family: Poppins;
 }
-.header-content-1,.header-content-2{
- 
+.header-content-1,
+.header-content-2 {
   display: flex;
   gap: 50px;
   align-items: center;
-
 }
-.search{
+.search {
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   min-width: 250px;
   box-sizing: border-box;
   padding: 10px 15px;
-
 }
 
-.logo{
+.logo {
   white-space: nowrap;
 }
 
-input{
+input {
   outline: none;
   border: none;
   background: none;
-
 }
 
-#hero{
+#hero {
   display: flex;
-   font-family: Lato, Lato Fallback;
+  font-family:
+    Lato,
+    Lato Fallback;
   font-weight: 600;
   line-height: 1.1;
   gap: 5%;
   align-items: center;
-  width:100% ;
- margin-top: 3%;
-  justify-content:center;
+  width: 100%;
+  margin-top: 3%;
+  justify-content: center;
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   gap: 10px;
   flex-direction: column;
-
 }
-.heading{
-  color:  rgb(0, 26, 112);
+.heading {
+  color: rgb(0, 26, 112);
   font-size: 70px;
 
   flex-wrap: wrap;
-   font-family: Lato, Lato Fallback;
-   font-weight: 600;
-
+  font-family:
+    Lato,
+    Lato Fallback;
+  font-weight: 600;
 }
 
 .sub-heading {
@@ -87,47 +85,46 @@ input{
   color: #60646b;
 }
 
-
-.tag{
+.tag {
   display: flex;
   align-items: center;
-  max-width:300px;
+  max-width: 300px;
   padding: 8px 12px;
   white-space: nowrap;
   height: 1%;
   box-sizing: border-box;
- border: 1px dashed #BDBDBD;
- gap: 12px;
- border-radius: 9999px;
-
+  border: 1px dashed #bdbdbd;
+  gap: 12px;
+  border-radius: 9999px;
 }
 
-.active{
+.active {
   width: 12px;
   height: 12px;
- border-radius: 9999px;
-  background-color: #10b0a7
+  border-radius: 9999px;
+  background-color: #10b0a7;
 }
-.status-tag{
+.status-tag {
   font-size: 14px;
-     font-family: Lato, Lato Fallback;
+  font-family:
+    Lato,
+    Lato Fallback;
   color: lab(28.7% 1.26 0.45);
 }
 
-img{
- max-width: 85%;
- min-height: 75%;
+img {
+  max-width: 85%;
+  min-height: 75%;
 }
 
-.button{
- 
+.button {
   display: flex;
 
   gap: 20px;
   text-align: center;
-  
 }
-.button-2,.button-1{
+.button-2,
+.button-1 {
   border-radius: 10px;
   min-width: 150px;
   height: 20px;
@@ -136,7 +133,145 @@ img{
   padding: 12px;
 }
 
-.button-2{
+.button-2 {
   background-color: lab(11.0101 14.3499 -42.1491);
   color: #e5e7eb;
+}
+
+#hero-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  min-width: fit-conten;
+  background-color: red;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  min-width:68%;
+justify-content: space-around;
+  box-sizing: border-box;
+  background-color: lab(11.0101 14.3499 -42.1491);
+  min-height:20vh ;
+  border-radius: 20px 140px 20px 20px;
+}
+.svg-background {
+  background-color: #babaffb2;
+  padding: 12px;
+  border-radius: 0px 15px 0px 15px;
+}
+
+.line {
+  width: 2px;
+  height: 70px;
+  margin: 0px 20px 0px 0px;
+  background-color: #e5e7eb;
+}
+
+.icon-num {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.num-word {
+  color: lab(90.952% 0 -0.0000119209);
+  font-size: 40px;
+  font-weight: 500;
+  font-family:
+    Lato,
+    Lato Fallback;
+  white-space: nowrap;
+}
+.word {
+  color: #e5e5e5;
+  font-size: 16px;
+
+  font-family:
+    Lato,
+    Lato Fallback;
+}
+
+.job-ready-highlights {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 15px;
+  background-color: lab(61.2815% -53.312 -0.356901);
+  max-width: 43%;
+  box-sizing: border-box;
+  max-height: fit-content;
+  position: relative;
+  border-radius: 10px 40px 10px 40px;
+}
+#Personally-highlights {
+  background-color: lab(11.0101% 14.3499 -42.1491);
+  max-width: 33%;
+  min-height: fit-content;
+ box-sizing: border-box;
+ padding: 50px;
+  position: relative;
+  border-radius: 10px 40px 10px 40px;
+}
+
+.brick-pattern {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+
+  height: 98%;
+}
+#highlights-2 {
+  margin-top: 25px;
+  box-sizing: border-box;
+  justify-content:center;
+  padding: 20px;
+  gap: 20px;
+  max-width: 90%;
+  display: flex;
+}
+
+.job-heading {
+  color: lab(98.26% 0 0);
+  font-weight: 600;
+  font-size: 36px;
+  font-family:
+    Lato,
+    Lato Fallback;
+}
+.job-heading-2 {
+  color: lab(98.26% 0 0);
+  font-size: 18px;
+  font-family:
+    Lato,
+    Lato Fallback;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.button-style {
+  border: 1px solid rgb(241, 237, 237);
+  min-width: fit-content;
+  max-height: 15px;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px;
+  background-color: white;
+  font-family:
+    Lato,
+    Lato Fallback;
+  border-radius: 999px;
+  color: lab(61.2815% -53.312 -0.356901);
+}
+
+.presonally {
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+  flex-direction: column;
 }
